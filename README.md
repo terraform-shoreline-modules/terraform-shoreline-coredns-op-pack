@@ -41,8 +41,7 @@ Shoreline Op Packs are open-source collections of Terraform configurations and s
 
 ### CoreDNS
 
-The [CoreDNS Op Pack](https://registry.terraform.io/modules/terraform-shoreline-modules/coredns-op-pack/shoreline/latest/submodules/coredns) monitors coredns performance metrics. If the monitored CoreDNS latency exceed the defined threshold, Shoreline automatically performs a rollout restart of CoreDNS pods.
-
+The [CoreDNS Op Pack](https://registry.terraform.io/modules/terraform-shoreline-modules/coredns-op-pack/shoreline/latest/submodules/coredns) monitors [CoreDNS](https://coredns.io/) performance metrics. Shoreline automatically performs a rollout restart of CoreDNS pods when the monitored CoreDNS latency exceeds the defined threshold.
 
 ## Additional resources
 
