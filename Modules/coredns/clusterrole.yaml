@@ -1,0 +1,11 @@
+# Make changes to the clusterrole shoreline-agent
+#kubectl edit clusterrole shoreline-agent
+
+- apiGroups:
+  - '*'
+  resources:
+  - deployments
+  verbs:
+  - get
+  - list
+  - patch
